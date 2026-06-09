@@ -1,10 +1,10 @@
-# color_util
+# colorterm.hpp
 
 A lightweight, header-only C++ utility library for adding ANSI escape colors to terminal output.
 
 ## Features
 
-* **Header-only**: Just include `color_util.hpp` and you are good to go. No compilation required.
+* **Header-only**: Just include `colorterm.hpp` and you are good to go. No compilation required.
 * **Highly Compatible**: Supports **C++98 or later**.
 * **Zero Dependencies**: Pure standard C++ without any external overhead.
 
