@@ -15,7 +15,7 @@ Always remember to use `reset` to restore the default terminal color.
 
 ```cpp
 #include <iostream>
-#include "color_util.hpp"
+#include "colorterm.hpp"
 
 int main() {
     std::cout << Kumalib::color::red     << "This is Red"     << Kumalib::color::reset << std::endl;
