@@ -1,4 +1,4 @@
-# colorterm.hpp
+# Colorterm
 
 A lightweight, header-only C++ utility library for adding ANSI escape colors to terminal output.
 
@@ -11,7 +11,7 @@ A lightweight, header-only C++ utility library for adding ANSI escape colors to 
 ## Usage
 
 Simply stream the constants from the `Kumalib::color` namespace to `std::cout`. 
-Always remember to use `reset` to restore the default terminal color.
+Always remember to use `Kumalib::color::reset` to restore the default terminal color.
 
 ```cpp
 #include <iostream>
